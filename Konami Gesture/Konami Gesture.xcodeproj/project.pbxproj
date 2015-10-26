@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18E5D2421BDE8EE200A21418 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E5D2411BDE8EE200A21418 /* main.m */; };
+		18E5D2451BDE8EE200A21418 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E5D2441BDE8EE200A21418 /* AppDelegate.m */; };
+		18E5D2481BDE8EE200A21418 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E5D2471BDE8EE200A21418 /* ViewController.m */; };
+		18E5D24B1BDE8EE200A21418 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E5D2491BDE8EE200A21418 /* Main.storyboard */; };
+		18E5D24D1BDE8EE200A21418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E5D24C1BDE8EE200A21418 /* Assets.xcassets */; };
+		18E5D2501BDE8EE200A21418 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E5D24E1BDE8EE200A21418 /* LaunchScreen.storyboard */; };
+		18E5D25B1BDE8EE200A21418 /* Konami_GestureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E5D25A1BDE8EE200A21418 /* Konami_GestureTests.m */; };
+		18E5D2661BDE8EE200A21418 /* Konami_GestureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E5D2651BDE8EE200A21418 /* Konami_GestureUITests.m */; };
+		18E5D2751BDE8F3B00A21418 /* KonamiGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E5D2741BDE8F3B00A21418 /* KonamiGestureRecognizer.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18E5D2571BDE8EE200A21418 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E5D2351BDE8EE200A21418 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E5D23C1BDE8EE200A21418;
+			remoteInfo = "Konami Gesture";
+		};
+		18E5D2621BDE8EE200A21418 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E5D2351BDE8EE200A21418 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E5D23C1BDE8EE200A21418;
+			remoteInfo = "Konami Gesture";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18E5D23D1BDE8EE200A21418 /* Konami Gesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Konami Gesture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E5D2411BDE8EE200A21418 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18E5D2431BDE8EE200A21418 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18E5D2441BDE8EE200A21418 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18E5D2461BDE8EE200A21418 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18E5D2471BDE8EE200A21418 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18E5D24A1BDE8EE200A21418 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18E5D24C1BDE8EE200A21418 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E5D24F1BDE8EE200A21418 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18E5D2511BDE8EE200A21418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E5D2561BDE8EE200A21418 /* Konami GestureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Konami GestureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E5D25A1BDE8EE200A21418 /* Konami_GestureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Konami_GestureTests.m; sourceTree = "<group>"; };
+		18E5D25C1BDE8EE200A21418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E5D2611BDE8EE200A21418 /* Konami GestureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Konami GestureUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E5D2651BDE8EE200A21418 /* Konami_GestureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Konami_GestureUITests.m; sourceTree = "<group>"; };
+		18E5D2671BDE8EE200A21418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E5D2731BDE8F3B00A21418 /* KonamiGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KonamiGestureRecognizer.h; sourceTree = "<group>"; };
+		18E5D2741BDE8F3B00A21418 /* KonamiGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KonamiGestureRecognizer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E5D23A1BDE8EE200A21418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E5D2531BDE8EE200A21418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E5D25E1BDE8EE200A21418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E5D2341BDE8EE200A21418 = {
+			isa = PBXGroup;
+			children = (
+				18E5D23F1BDE8EE200A21418 /* Konami Gesture */,
+				18E5D2591BDE8EE200A21418 /* Konami GestureTests */,
+				18E5D2641BDE8EE200A21418 /* Konami GestureUITests */,
+				18E5D23E1BDE8EE200A21418 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18E5D23E1BDE8EE200A21418 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E5D23D1BDE8EE200A21418 /* Konami Gesture.app */,
+				18E5D2561BDE8EE200A21418 /* Konami GestureTests.xctest */,
+				18E5D2611BDE8EE200A21418 /* Konami GestureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E5D23F1BDE8EE200A21418 /* Konami Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				18E5D2431BDE8EE200A21418 /* AppDelegate.h */,
+				18E5D2441BDE8EE200A21418 /* AppDelegate.m */,
+				18E5D2461BDE8EE200A21418 /* ViewController.h */,
+				18E5D2731BDE8F3B00A21418 /* KonamiGestureRecognizer.h */,
+				18E5D2741BDE8F3B00A21418 /* KonamiGestureRecognizer.m */,
+				18E5D2471BDE8EE200A21418 /* ViewController.m */,
+				18E5D2491BDE8EE200A21418 /* Main.storyboard */,
+				18E5D24C1BDE8EE200A21418 /* Assets.xcassets */,
+				18E5D24E1BDE8EE200A21418 /* LaunchScreen.storyboard */,
+				18E5D2511BDE8EE200A21418 /* Info.plist */,
+				18E5D2401BDE8EE200A21418 /* Supporting Files */,
+			);
+			path = "Konami Gesture";
+			sourceTree = "<group>";
+		};
+		18E5D2401BDE8EE200A21418 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18E5D2411BDE8EE200A21418 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18E5D2591BDE8EE200A21418 /* Konami GestureTests */ = {
+			isa = PBXGroup;
+			children = (
+				18E5D25A1BDE8EE200A21418 /* Konami_GestureTests.m */,
+				18E5D25C1BDE8EE200A21418 /* Info.plist */,
+			);
+			path = "Konami GestureTests";
+			sourceTree = "<group>";
+		};
+		18E5D2641BDE8EE200A21418 /* Konami GestureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18E5D2651BDE8EE200A21418 /* Konami_GestureUITests.m */,
+				18E5D2671BDE8EE200A21418 /* Info.plist */,
+			);
+			path = "Konami GestureUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E5D23C1BDE8EE200A21418 /* Konami Gesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E5D26A1BDE8EE200A21418 /* Build configuration list for PBXNativeTarget "Konami Gesture" */;
+			buildPhases = (
+				18E5D2391BDE8EE200A21418 /* Sources */,
+				18E5D23A1BDE8EE200A21418 /* Frameworks */,
+				18E5D23B1BDE8EE200A21418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Konami Gesture";
+			productName = "Konami Gesture";
+			productReference = 18E5D23D1BDE8EE200A21418 /* Konami Gesture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18E5D2551BDE8EE200A21418 /* Konami GestureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E5D26D1BDE8EE200A21418 /* Build configuration list for PBXNativeTarget "Konami GestureTests" */;
+			buildPhases = (
+				18E5D2521BDE8EE200A21418 /* Sources */,
+				18E5D2531BDE8EE200A21418 /* Frameworks */,
+				18E5D2541BDE8EE200A21418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E5D2581BDE8EE200A21418 /* PBXTargetDependency */,
+			);
+			name = "Konami GestureTests";
+			productName = "Konami GestureTests";
+			productReference = 18E5D2561BDE8EE200A21418 /* Konami GestureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18E5D2601BDE8EE200A21418 /* Konami GestureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E5D2701BDE8EE200A21418 /* Build configuration list for PBXNativeTarget "Konami GestureUITests" */;
+			buildPhases = (
+				18E5D25D1BDE8EE200A21418 /* Sources */,
+				18E5D25E1BDE8EE200A21418 /* Frameworks */,
+				18E5D25F1BDE8EE200A21418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E5D2631BDE8EE200A21418 /* PBXTargetDependency */,
+			);
+			name = "Konami GestureUITests";
+			productName = "Konami GestureUITests";
+			productReference = 18E5D2611BDE8EE200A21418 /* Konami GestureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E5D2351BDE8EE200A21418 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = YASH;
+				TargetAttributes = {
+					18E5D23C1BDE8EE200A21418 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					18E5D2551BDE8EE200A21418 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 18E5D23C1BDE8EE200A21418;
+					};
+					18E5D2601BDE8EE200A21418 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 18E5D23C1BDE8EE200A21418;
+					};
+				};
+			};
+			buildConfigurationList = 18E5D2381BDE8EE200A21418 /* Build configuration list for PBXProject "Konami Gesture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18E5D2341BDE8EE200A21418;
+			productRefGroup = 18E5D23E1BDE8EE200A21418 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E5D23C1BDE8EE200A21418 /* Konami Gesture */,
+				18E5D2551BDE8EE200A21418 /* Konami GestureTests */,
+				18E5D2601BDE8EE200A21418 /* Konami GestureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E5D23B1BDE8EE200A21418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E5D2501BDE8EE200A21418 /* LaunchScreen.storyboard in Resources */,
+				18E5D24D1BDE8EE200A21418 /* Assets.xcassets in Resources */,
+				18E5D24B1BDE8EE200A21418 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E5D2541BDE8EE200A21418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E5D25F1BDE8EE200A21418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E5D2391BDE8EE200A21418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E5D2481BDE8EE200A21418 /* ViewController.m in Sources */,
+				18E5D2451BDE8EE200A21418 /* AppDelegate.m in Sources */,
+				18E5D2751BDE8F3B00A21418 /* KonamiGestureRecognizer.m in Sources */,
+				18E5D2421BDE8EE200A21418 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E5D2521BDE8EE200A21418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E5D25B1BDE8EE200A21418 /* Konami_GestureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E5D25D1BDE8EE200A21418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E5D2661BDE8EE200A21418 /* Konami_GestureUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18E5D2581BDE8EE200A21418 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E5D23C1BDE8EE200A21418 /* Konami Gesture */;
+			targetProxy = 18E5D2571BDE8EE200A21418 /* PBXContainerItemProxy */;
+		};
+		18E5D2631BDE8EE200A21418 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E5D23C1BDE8EE200A21418 /* Konami Gesture */;
+			targetProxy = 18E5D2621BDE8EE200A21418 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18E5D2491BDE8EE200A21418 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E5D24A1BDE8EE200A21418 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18E5D24E1BDE8EE200A21418 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E5D24F1BDE8EE200A21418 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18E5D2681BDE8EE200A21418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18E5D2691BDE8EE200A21418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E5D26B1BDE8EE200A21418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Konami Gesture/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ykl7.Konami-Gesture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18E5D26C1BDE8EE200A21418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Konami Gesture/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ykl7.Konami-Gesture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18E5D26E1BDE8EE200A21418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Konami GestureTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ykl7.Konami-GestureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Konami Gesture.app/Konami Gesture";
+			};
+			name = Debug;
+		};
+		18E5D26F1BDE8EE200A21418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Konami GestureTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ykl7.Konami-GestureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Konami Gesture.app/Konami Gesture";
+			};
+			name = Release;
+		};
+		18E5D2711BDE8EE200A21418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Konami GestureUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ykl7.Konami-GestureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Konami Gesture";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		18E5D2721BDE8EE200A21418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Konami GestureUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ykl7.Konami-GestureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Konami Gesture";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E5D2381BDE8EE200A21418 /* Build configuration list for PBXProject "Konami Gesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E5D2681BDE8EE200A21418 /* Debug */,
+				18E5D2691BDE8EE200A21418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E5D26A1BDE8EE200A21418 /* Build configuration list for PBXNativeTarget "Konami Gesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E5D26B1BDE8EE200A21418 /* Debug */,
+				18E5D26C1BDE8EE200A21418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18E5D26D1BDE8EE200A21418 /* Build configuration list for PBXNativeTarget "Konami GestureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E5D26E1BDE8EE200A21418 /* Debug */,
+				18E5D26F1BDE8EE200A21418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18E5D2701BDE8EE200A21418 /* Build configuration list for PBXNativeTarget "Konami GestureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E5D2711BDE8EE200A21418 /* Debug */,
+				18E5D2721BDE8EE200A21418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18E5D2351BDE8EE200A21418 /* Project object */;
+}
