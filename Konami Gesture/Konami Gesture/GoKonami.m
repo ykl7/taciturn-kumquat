@@ -117,7 +117,7 @@ void progressInGestureSeries (KonamiGestures presentGesture, BOOL *progressInNeg
     }
     
     NSDate *presentTimeStamp = [NSDate new];
-    if ([presentTimeStamp timeIntervalSinceDate:self.timeOfPreviousGesture] > betweenGestures)
+    if ([presentTimeStamp timeIntervalSinceDate:self.timeOfPreviousGesture] > duringGesture)
     {
         
         [self setState:UIGestureRecognizerStateFailed];
