@@ -13,7 +13,7 @@
 @end
 
 typedef NS_ENUM(NSInteger, KonamiGestures)
-{ NoGesture, UpGesture1, UpGesture2, DownGesture1, DownGesture2, LeftGesture1, RightGesture1, LeftGesture2, RightGesture2 };
+{ VoidGesture = 0, NoGesture, UpGesture1, UpGesture2, DownGesture1, DownGesture2, LeftGesture1, RightGesture1, LeftGesture2, RightGesture2, FinalGesture };
 
 @interface GoKonami : UIGestureRecognizer
 
