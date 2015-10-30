@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "GoKonami.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <GoKonamiProtocol>
 
 @property (nonatomic, readonly) GoKonami *konamiGestureRecognizer;
 

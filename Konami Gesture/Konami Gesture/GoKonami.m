@@ -34,7 +34,7 @@ void progressInGestureSeries (KonamiGestures presentGesture, BOOL *progressInNeg
     if (!self)
     {
         
-        self.presentGesture = NoGesture;
+        self.presentGesture = VoidGesture;
         self.timeOfPreviousGesture = [NSDate new];
         self.previousGestureStartPosition = CGPointZero;
         
@@ -44,10 +44,10 @@ void progressInGestureSeries (KonamiGestures presentGesture, BOOL *progressInNeg
     
 }
 
-- (void) resetGestureSeriesToNone
+- (void) resetGestureSeriesToVoid
 {
     
-    self.presentGesture = NoGesture;
+    self.presentGesture = VoidGesture;
     
 }
 
@@ -212,12 +212,12 @@ void progressInGestureSeries (KonamiGestures presentGesture, BOOL *progressInNeg
             CGFloat distanceCoveredInTouchX = presentTouchAt.x - self.previousGestureStartPosition.x;
             if ((checkNegXState) && (distanceCoveredInTouchX <  -1 * minSwipeLength))
             {
-                
+                NSLog(@"minus X");
             }
             
             else if ((checkPosXState) &&(distanceCoveredInTouchX > minSwipeLength))
             {
-                
+                NSLog(@"plus X");
             }
             
             else
@@ -235,12 +235,12 @@ void progressInGestureSeries (KonamiGestures presentGesture, BOOL *progressInNeg
             CGFloat distanceCoveredInTouchY = presentTouchAt.y - self.previousGestureStartPosition.y;
             if ((checkNegYState) && (distanceCoveredInTouchY < -1 * minSwipeLength))
             {
-                
+                NSLog(@"minus Y");
             }
             
             else if ((checkPosYState) && (distanceCoveredInTouchY > minSwipeLength))
             {
-                
+                NSLog(@"plus Y");
             }
             
             else

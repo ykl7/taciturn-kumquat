@@ -4,7 +4,7 @@ This is an attempt to make a simple library for the famous Konami gesture.
 
 To add to any view in a project, import the GoKonami files and to the view in which it has to be implemented, add the following code:
 
-#import "GoKonami.h"
+import "GoKonami.h"
 
 - (void) initKonami
 {
